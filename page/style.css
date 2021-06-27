@@ -38,6 +38,7 @@
     height: 3rem;
     border-radius: 50%;
     width: 74px;
+    object-fit: cover;
 }
 
 .content .svg-inline--fa.fa-w-14 {
@@ -770,7 +771,7 @@
 /*============ FIXED BACKGROUND IMAGE DARK ============*/
 
 .content #fixed {
-    background-image: url('https://github.com/Ceci007/images/blob/master/img-portfolio/desktop1.jpeg?raw=true');
+    background-image: url('../image/o3.jpg');
     z-index: -1;
 }
 
@@ -887,6 +888,7 @@
     font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: 700;
+    padding-top: 30px;
 }
 
 
@@ -924,7 +926,7 @@
 /*============ CONTACT SECTION ============*/
 
 .content footer {
-    background: url('https://github.com/Ceci007/images/blob/master/img-portfolio/footer/footer.png?raw=true') no-repeat;
+    background: url('../image/f3.jpg') no-repeat;
     background-size: cover;
     color: #FFF;
 }
@@ -1604,6 +1606,38 @@ html .slide1 {
 .portfolio-item img {
     object-fit: cover;
     height: 270px;
+}
+
+.service img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 253px;
+    padding-bottom: 21px;
+}
+
+.col-2.day p {
+    font-size: 20px;
+}
+
+.col-2.day p:hover {
+    font-size: 25px;
+    background: #F79928;
+}
+
+.skill span {
+    background: #f19e2c;
+    padding: 22px;
+    border-radius: 34%;
+}
+
+.takeaway p {
+    color: black;
+    font-size: 23px;
+}
+
+.takeaway h3 {
+    font-size: 2.1rem;
+    font-weight: 700;
 }
 
 
